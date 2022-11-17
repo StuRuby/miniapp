@@ -86,7 +86,7 @@ module.exports = (
 
   chainConfig.module
     .rule('withRoleJSX')
-    .test(/\.t|jsx?$/)
+    .test(/\.(t|j)sx?$/)
     .enforce('post')
     .exclude.add(/node_modules/)
     .end()
